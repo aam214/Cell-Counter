@@ -1,5 +1,12 @@
 .body{
-  background-color: rgb(79, 79, 80);
+  background-color:#333;
+}
+header{
+  padding: 50px 80px 50px 80px;
+  background-color:rgb(199, 149, 245);
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  margin-bottom: 40px;
 }
 .application{
 margin: 0 auto;
@@ -8,19 +15,27 @@ background-color: rgb(235, 235, 238);
 max-width: 800px;
 padding: 70px;
 border-radius: 8px;
+text-align: center;
   }
-h1 {
-  color: blue;
+.heading{
+  color:white;
   padding-bottom: 40px;
   text-align: center;
 }
 .box {
   border: 3px solid rgb(150, 136, 138);
-  width: 100px;
+  width: 120px;
+word-break: normal;
+white-space: normal;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
-  height: 80px;
+  height: 100px;
   color: blueviolet;
   text-align: center;
-  vertical-align: middle;
+ 
+}
+.box:hover {
+  background-color: #d1c4e9; /* light purple */
+  color: #333; /* dark text */
+  cursor: pointer;
 }
